@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/your-kit-id.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/png" href="logo.svg">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="main_container center">
+      <!-- Mobile navigation -->
+      <div class="mobile_navigation center">
+        <a href="index.html">
+          <div class="site_logo_mobile">
+            <img
+              src="logo.svg"
+              alt="logo"
+              class="site_logo_mobile"
+            />
+          </div>
+        </a>
+        <div class="toggle_button">
+          <i class="fa-solid fa-align-justify"></i>
+        </div>
+      </div>
+      <div class="mobile_menu_icons">
+        <ul class="center column">
+          <li>
+            <a
+              href="services.html"
+              class="menu_items"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="work.html" class="menu_items"
+              >Work</a
+            >
+          </li>
+          <li>
+            <a
+              href="about.html"
+              class="menu_items"
+              >About</a
+            >
+          </li>
+          <a href="contact.html" class="menu_buttons center" id="menu_btns_h">
+            Start your project<i class="fa-solid fa-arrow-right-long"></i>
+          </a href="contact.html">
+        </ul>
+      </div>
+      <!-- Laptop screen navigation -->
+      <div class="navigation center">
+        <a href="index.html">
+          <div class="site_logo">
+            <img
+              src="logo.svg"
+              alt="logo"
+              class="site_logo"
+              id="site_logos"
+            />
+          </div>
+        </a>
+        <div class="menu_icons">
+          <ul class="center">
+            <li>
+              <a
+                href="services.html"
+                class="menu_items"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="work.html"
+                class="menu_items"
+                >Work</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="menu_items"
+                >About</a
+              >
+            </li>
+            <a href="contact.html" class="menu_buttons center" id="menu_btns_h">
+              Start your project<i class="fa-solid fa-arrow-right-long"></i>
+            </a href="contact.html">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav> 
+  
+      <header>
+            <div class="main_container center">
+            <div class="heading_container center column" style="height: 300px;">
+              <h1 id="hey1">Vision. Clarity. Results.</h1>
+              <p id="hey2">Our client relationships are built on trust, collaboration, and transparency. With your ideas and our guidance and resources, the possibilities are endless.</p>         
+            </div>
+          </div> 
+      </header>
+      <main>
+       <div class="main_container center"> 
+        <form action="https://formspree.io/f/xanwzzwr" method="POST" class="form_container">
+          <div class="form_row">
+            <div class="custom_form_group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="custom_form_group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          </div>
+          <div class="form_row">
+            <div class="custom_form_group">
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="custom_form_group">
+              <label for="address">Physical Address:</label>
+              <input type="text" id="address" name="address">
+            </div>
+          </div>
+          <div class="form_row">
+            <div class="custom_form_group">
+              <label for="hear_about_us">How did you hear about us?</label>
+              <input type="text" id="hear_about_us" name="hear_about_us">
+            </div>
+            <div class="custom_form_group">
+              <label for="budget">What is your budget?</label>
+              <select id="budget" name="budget" style="width: 100%;"  >
+                <option value="">Select one...</option>
+                <option value="below_10000">Below $10,000</option>
+                <option value="10000_50000">$10,000 - $50,000</option>
+                <option value="50000_100000">$50,000 - $100,000</option>
+                <option value="above_100000">Above $100,000</option>
+              </select>
+            </div>
+          </div>
+          <div class="custom_form_group">
+            <label for="help">How can we help?</label>
+            <textarea id="help" name="help" required></textarea>
+          </div>
+          <button type="submit" id="btnsay" class="menu_buttons center" style="background: #3d7dca; color: #ffffff;">SUBMIT<i class="fa-solid fa-arrow-right-long"></i></button>
+        </form>
+    </div>  
+      </main>
+   
+    <footer>
+        <div class="main_container center">
+           <div class="footer_item center">
+            <div class="footer_box">
+              <h3>WF Design + Build © 2024</h3>
+              <p>4432 Wilson Rd.
+                Chilliwack, BC V2R 5C5</p>
+                <div class="footer_a" id="footer-a">
+                  <a href="#" >Privacy Policy</a>  
+                </div>
+               
+            </div>
+            <div class="footer_box">
+              <h3>Join Our Team</h3>
+              <p>We're always open to discussing collaboration opportunities with other professional trades. Go ahead and introduce yourself.</p>
+              <div class="footer_a">
+                <a href="#" >Say Hello</a>  
+              </div>
+            </div>
+            <div class="footer_box">
+              <h3>Get Social</h3>
+                <div class="footer_a">
+                  <a href="#" >Instagram</a>  
+                  <a href="#" >Facebook</a>  
+                  <a href="#" >LinkedIn</a>  
+                </div>
+            </div>
+            <div class="footer_box">
+              <h3>Contact Us</h3>
+              
+              <div class="footer_a" id="footer-a">
+                <a href="mailto:ggxehc@gmail.com" >Send an email</a>   
+                <a href="#" >778-808-3929</a>   
+              </div>
+            </div>
+             
+           </div>
+        </div>
+      </footer>
+</body>
+<script src="script.js"></script>
+</html>
